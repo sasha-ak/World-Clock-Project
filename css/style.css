@@ -1,5 +1,4 @@
 body {
-  background-color: #427aa1;
   font-family: sans-serif;
 }
 
@@ -21,11 +20,19 @@ select {
 a {
   color: #ebf2fa;
 }
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: #ebf2fa;
+  background: #f9fcfb;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 6px;
@@ -57,4 +64,5 @@ footer {
   text-align: center;
   font-size: 16px;
   color: #ebf2fa;
+  margin-top: 40px;
 }
