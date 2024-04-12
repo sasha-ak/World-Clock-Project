@@ -20,6 +20,9 @@ select {
 a {
   color: #ebf2fa;
 }
+.back {
+  color: black;
+}
 video {
   position: fixed;
   top: 0;
